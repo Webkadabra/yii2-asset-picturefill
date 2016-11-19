@@ -1,7 +1,7 @@
 {
     "name": "webkadabra/yii2-picturefill-asset",
     "description": "Yii2 Picturefill plugin Asset",
-    "type": "yii2-asset",
+    "type": "yii2-extension",
     "license": "MIT",
 	"keywords": [
 		"yii2",
@@ -15,8 +15,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-        "bower-asset/picturefill": "~3.0.2"
+        "yiisoft/yii2": ">=2.0.4",
+        "bower-asset/picturefill": "3.0.*"
     },
     "autoload": {
         "psr-4": {
